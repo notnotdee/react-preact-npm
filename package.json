@@ -1,0 +1,34 @@
+{
+  "name": "@dl-watson/react-app",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dl-watson/-dl-watson-react-app.git"
+  },
+  "bin": {
+    "react-app": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "@dl-watson, @mehtaphysical",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dl-watson/-dl-watson-react-app.git/issues"
+  },
+  "homepage": "https://github.com/dl-watson/-dl-watson-react-app.git#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
