@@ -1,6 +1,6 @@
 {
-  "name": "@dl-watson/react-app",
-  "version": "1.0.9",
+  "name": "@dl-watson/react-preact",
+  "version": "1.1.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dl-watson/-dl-watson-react-app.git"
