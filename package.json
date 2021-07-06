@@ -1,9 +1,9 @@
 {
-  "name": "@dl-watson/react-app",
-  "version": "1.0.9",
+  "name": "@notnotdee/react-preact",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dl-watson/-dl-watson-react-app.git"
+    "url": "git+https://github.com/notnotdee/react-preact-npm.git"
   },
   "bin": {
     "react-app": "index.js"
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "@dl-watson, @mehtaphysical",
+  "author": "@notnotdee, @mehtaphysical",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
@@ -25,9 +25,9 @@
     "eslint": "^7.24.0"
   },
   "bugs": {
-    "url": "https://github.com/dl-watson/-dl-watson-react-app.git/issues"
+    "url": "https://github.com/notnotdee/react-preact-npm/issues"
   },
-  "homepage": "https://github.com/dl-watson/-dl-watson-react-app.git#readme",
+  "homepage": "https://github.com/notnotdee/react-preact-npm#readme",
   "directories": {
     "lib": "lib"
   }
