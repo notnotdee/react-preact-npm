@@ -3,9 +3,11 @@
 const { program } = require('commander');
 const { prompt } = require('inquirer');
 const reactSetup = require('./lib/reactSetup');
+const preactSetup = require('./lib/preactSetup');
 
 const scripts = {
   reactSetup,
+  preactSetup,
 };
 
 const init = async (config) => {
@@ -24,7 +26,10 @@ const getConfig = async (program) => {
           type: 'list',
           name: 'type',
           message: 'Application Type',
-          choices: [{ name: 'react', value: 'reactSetup' }],
+          choices: [
+            { name: 'react', value: 'reactSetup' },
+            { name: 'preact', value: 'preactSetup' },
+          ],
         },
         {
           type: 'input',
@@ -36,7 +41,7 @@ const getConfig = async (program) => {
           type: 'input',
           name: 'appName',
           message: 'Application Name',
-          default: 'react-app',
+          default: 'my-app',
         },
       ]);
 };
@@ -44,7 +49,7 @@ const getConfig = async (program) => {
 program
   .option(
     '-t, --type <type>',
-    'application type (currently only supports react)'
+    'application type (currently only supports react/preact)'
   )
   .option('-n, --name <name>', 'application name')
   .parse(process.argv);
